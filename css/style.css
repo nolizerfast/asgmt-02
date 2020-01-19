@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+	display: block;
+}
+#weather {    
+    display: inline-block;
+    text-align: left;
+}
+ul {
+    list-style: none;
+  }
+
+.date {
+    display: flex;
+}
+
+.desc {
+    font-size:1.25rem;
+    font-weight: bold;
+}
+
+.temp {
+    margin-top: 3px;
+    margin-left: 15px;
+}
+.fore-outer {
+    display: flex;
+}
+.fore {
+    margin-top: 35px;
+    display: flex;
+}
